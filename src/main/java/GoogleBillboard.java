@@ -7,7 +7,7 @@ int min = 0;
 int max = 10;
 for(int i = max; i < String.length(); i++)
 	double d = Double.parseDouble(e.substring(min,max));
-	start++;
+	min++;
 	if(isPrime(d) == true)
 		System.out.println("d");
 }
