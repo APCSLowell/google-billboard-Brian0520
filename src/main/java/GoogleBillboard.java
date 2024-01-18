@@ -5,8 +5,8 @@ public final static String e = "2.7182818284590452353602874713526624977572470936
 public static void main(final String[] args) {
 int min = 0;
 int max = 10;
+double d = Double.parseDouble(e.substring(min,max));
 for(int i = max; i < String.length(); i++)
-	double d = Double.parseDouble(e.substring(min,max));
 	min++;
 	if(isPrime(d) == true)
 		System.out.println("d");
