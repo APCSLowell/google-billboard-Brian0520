@@ -4,9 +4,12 @@ public class GoogleBillboard {
 public final static String e = "2.7182818284590452353602874713526624977572470936999595749669676277240766303535475945713821785251664274274663919320030599218174135966290435";  
 public static void main(final String[] args) {
 int start = 0;
-for(int i = 10; i < String.length(); i++)
-	if(isPrime() == true)
-		System.out.println("Replace this string with your answer!");
+int max = 10;
+for(int i = max; i < String.length(); i++)
+	double d = Double.parseDouble(e.substring(min,max));
+	start++;
+	if(isPrime(d) == true)
+		System.out.println("d");
 }
 	
 
