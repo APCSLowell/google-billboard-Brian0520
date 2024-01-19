@@ -10,7 +10,7 @@ for(int i = 2; i < e.length(); i++){
 	}
 }
 }
-	
+}	
 
 	//Finish this function
 public boolean isPrime(double d){
