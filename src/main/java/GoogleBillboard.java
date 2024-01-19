@@ -5,11 +5,13 @@ public final static String e = "2.7182818284590452353602874713526624977572470936
 public static void main(final String[] args) {
 int min = 0;
 int max = 10;
-double d = Double.parseDouble(e.substring(min,max));
+String digits = e.substring(min,max);
+double d = Double.parseDouble(digits));
 for(int i = max; i < String.length(); i++)
 	min++;
-	if(isPrime(d) == true)
-		System.out.println("d");
+if(isPrime(d) == true){
+	System.out.println("d");
+	}
 }
 	
 
