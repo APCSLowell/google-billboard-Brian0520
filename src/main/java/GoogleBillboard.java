@@ -1,17 +1,14 @@
-
-
 public class GoogleBillboard {
 public final static String e = "2.7182818284590452353602874713526624977572470936999595749669676277240766303535475945713821785251664274274663919320030599218174135966290435";  
 public static void main(final String[] args) {
-int min = 0;
-int max = 10;
-String digits = e.substring(min,max);
-double d = Double.parseDouble(digits));
-for(int i = max; i < String.length(); i++)
-	min++;
-if(isPrime(d) == true){
-	System.out.println("d");
+for(int i = 2; i < e.length(); i++){
+	String num = e.substring(i,i+10);
+	double d = Double.parseDouble(num);
+	if(isPrime(d) == true){
+		System.out.println(d);
+		break;
 	}
+}
 }
 	
 
